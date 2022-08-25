@@ -1,0 +1,594 @@
+/*
+reset styling sheet
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+
+/*
+!!!My code starts here!!!
+*/
+
+
+
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #BEBEBE;
+
+}
+
+
+
+.wrapper {
+    margin: 0 auto;
+    width: 1000px;
+}
+.mainbanner{
+    width: 1000px;
+    height: 50vh;
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    margin: 180px 250px 0 250px;
+
+}
+.mainbanner a{
+    text-decoration: underline;
+    color: #ffe9f0;
+}
+.mainbanner h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    text-align: left;
+    padding-bottom: 20px;
+ 
+}
+.header-brand{
+    text-decoration: none;
+    font-size:  25px;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    padding: 0 20px;
+    margin: 0 auto;
+
+}
+
+
+
+
+
+
+
+
+
+
+h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 45px;
+
+}
+body{
+    background-color: #BEBEBE;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+ul li a:hover{
+    color: #3D3D3D;
+
+
+}
+
+.service-content{
+    display: grid;
+    grid-template-columns: repeat(autofit, minmax(370px, auto));
+    grid-gap:2rem;
+    align-items: center;
+    margin-top: 4.5rem;
+}
+
+   
+
+
+
+.begin {
+    position: absolute; /* taken out of the normal flow of the document */
+    top: 50%; /* moved down by 50% of the screen height */
+    transform: translateY(-50%); /* moved back up (Y axis) by half of its height to achieve the perfect center */
+    width: 100%; /* needs to be defined to keep the default block behavior */
+    text-align: center;
+    margin: 0; /* again, for perfect center */
+   }
+.section{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 60%;
+    margin: 100px auto 0 auto;
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    line-height: 1.5;
+}
+.section img{
+    height: 600px;
+    border-radius: 15px;
+
+}
+.section h1{
+    margin: 0;
+    color: #3D3D3D;
+}
+.section p{
+    color: #3D3D3D;
+}
+.about{
+    width:100%;
+    padding: 78px 0px;
+
+}
+.about img{
+    height: auto;
+    width: 300px;
+    border-radius: 30px;
+}
+.about-text{
+    width:550px;
+}
+.about-text h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+
+}
+.about-text h5{
+    font-size: 25px;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+    font-family: 'Inter', sans-serif;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text p{
+    font-size: 18px;
+    margin-bottom: 45px;
+    line-height: 28px;
+    font-family: 'Inter', sans-serif;
+
+}
+button{
+    background: #ffe9f0;
+    color: #3D3D3D;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+
+}
+button:hover{
+    background: transparent;
+    border: 2px solid #ffe9f0;
+    cursor: pointer;
+}
+
+
+/*MY WORK SECTION */
+
+.mywork{
+    text-align: center;
+}
+
+
+.portfolio{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    min-height: 100vh;
+}
+.card{
+    position: relative;
+    width: 600px;
+    height: 350px;
+    border-radius: 20px;
+    display:flex;
+    align-items:center; 
+    transition: 0.5s;
+
+}
+
+.card .circle{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+
+}
+
+.card .circle::before{
+    content: '';
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #3D3D3D;
+    clip-path: circle(140px at center);
+    transition: 0.5s;
+
+}
+.card:hover .circle:before{
+    background: #3D3D3D;
+    clip-path:circle(400px at center);
+}
+
+.card img{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 300px;
+    pointer-events: none;
+    transition: 0.5s;
+    border-radius: 15px;
+
+}
+.card:hover img{
+    left: 72%;
+    height: 400px;
+
+}
+
+.card .content{ 
+    position: relative;
+    width: 50%;
+    left: 20%;
+    padding: 20px 20px 20px 40px;
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+
+}
+
+.card:hover .content
+{
+    left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+.card .content h2{
+    font-size: 2em;
+    line-height: 1em;
+    margin-bottom: 5px;
+
+}
+
+.card .content a {
+    position: relative;
+    color: #ffe9f0;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #000;
+    margin-top: 10px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 700;
+
+}
+
+.title{
+    text-align: center;
+}
+
+@media (max-width: 991px)
+{
+    .card
+{
+    width:auto;
+    max-width: 350px;
+    align-items: flex-start;
+}
+.card:hover
+{
+    height: 600px;
+}
+.card .content{
+    width: 100%;
+    left: 0;
+    padding: 30px;
+}
+.card:hover img{
+    top: 70%;
+    left: 50%;
+    height: 300px;
+
+}
+}
+@media(max-width:420px)
+{
+    .card .content
+    {
+        padding:20px;
+    }
+}
+
+
+}
+
+.item{
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 50px;
+
+}
+.cards{
+    background-color: #3D3D3D;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #BEBEBE;
+    color: white;
+    height: 75px;
+    margin-top: 15px;
+
+}
+
+.brand-title{
+    margin: .5rem;
+    margin-left: 300px;
+    font-size: 25px;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    color: #EBECF0;
+}
+.navbar-links ul{
+    margin-right: 300px;
+    padding: 0;
+    display: flex;
+    font-size: 25px;
+}
+
+.navbar-links li{
+    list-style:none;
+}
+
+.navbar-links li a{
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    display: block;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar{
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+@media(max-width: 600px){
+    .toggle-button{
+        display: flex;
+    }
+    .navbar-links{
+        display:none;
+    }
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;    
+    }
+.navbar-links ul{
+    width: 100%;
+    flex-direction: column;
+
+}
+.navbar-links li{
+    text-align:center;
+}
+
+.navbar-links li a {
+    padding: .5rem 1 rem;
+}
+.navbar-links.active{
+    display:flex;
+}
+}
+
+
+.footer{
+    height: auto;
+    width: 100vw;
+    font-family: 'Inter', sans-serif;
+    padding-top:40px;
+    color: #3D3D3D;
+}
+
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+
+}
+.socials{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+    list-style: none;
+}
+
+.socials li{
+    margin: 0 10px;
+
+}
+
+.socials a{
+  text-decoration: none;
+
+}
+
+.socials a i{
+    font-size: 2rem;
+    transition: color .4 ease;
+
+    color: #3D3D3D;
+    text-decoration: none;
+    
+
+}
+
+.socials a:hover i{
+    color: #ffe9f0;
+}
+
+.footer-bottom{
+    width: 100vw;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.footer-bottom p{
+    font-size: 20px;
+    word-spacing: 2px;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+
+}
+
+
+
+
+/*float:left;
+width:300px;
+border-radius: 30px;
+position:absolute;
+left: 200px; top: 200px;
+*/
