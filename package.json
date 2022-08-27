@@ -1,0 +1,22 @@
+{
+  "name": "mysite",
+  "version": "1.0.0",
+  "description": "tram website",
+  "main": "script.js",
+  "scripts": {
+    "build": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trambui05/mysite.git"
+  },
+  "author": "tram",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trambui05/mysite/issues"
+  },
+  "homepage": "https://github.com/trambui05/mysite#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
