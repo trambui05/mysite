@@ -107,21 +107,21 @@ input, select {
 
 *{
     box-sizing: border-box;
-    background-color: #BEBEBE;
+    background-color: #E4C2C1;
     text-decoration: none;
 }
 
 body{
     margin:0;
     padding: 0;
-    background-color: #BEBEBE;
+    background-color: #E4C2C1;
 }
 
 .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #BEBEBE;
+    background-color: #E4C2C1;
     color: #EBECF0;
     height: 75px;
     margin-top: 15px;
@@ -206,7 +206,7 @@ body{
 .mainbanner{
     display: block;
     text-align:left;
-    background-color: #BEBEBE;
+    background-color: #E4C2C1;
     color: #3D3D3D;
     height: 70vh;
    

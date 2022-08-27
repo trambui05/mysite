@@ -164,7 +164,7 @@ h1{
 
 }
 body{
-    background-color: #BEBEBE;
+    background-color: #E4C2C1;
     margin: 0;
     padding: 0;
 }
@@ -437,7 +437,7 @@ button:hover{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #BEBEBE;
+    background-color: #E4C2C1;
     color: white;
     height: 75px;
     margin-top: 15px;
