@@ -154,7 +154,7 @@ body{
 }
 
 .navbar-links li a{
-    text-decoration: none;
+    text-decoration: underline;
     color: white;
     padding: 1rem;
     display: block;
