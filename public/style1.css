@@ -128,6 +128,12 @@ body{
 
 }
 
+.navbar img{
+    width: 48px;
+    height: 48px;
+
+}
+
 .brand-title{
     margin: .5rem;
     margin-left: 300px;
