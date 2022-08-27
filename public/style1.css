@@ -129,8 +129,8 @@ body{
 }
 
 .navbar img{
-    width: 100px;
-    height: 100px;
+    width: auto;
+    max-height: 100px;
 
 }
 
